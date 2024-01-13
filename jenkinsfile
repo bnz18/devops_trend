@@ -6,7 +6,7 @@ pipeline {
     }
 
     stages {
-        stage('Clone-code1') {
+        stage('Clone-code') {
             steps {
                 git branch: 'main', url: 'https://github.com/bnz18/devops_trend.git'
             }
